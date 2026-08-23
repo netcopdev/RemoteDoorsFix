@@ -34,3 +34,11 @@ RemoteDoorsFix must be loaded by both the client and server. It is a regular cli
 Give multiple Code Locks the exact same public name to control their doors as one set. If any door in that set is open, the controller offers to close the set. Only a completely closed set can be opened.
 
 The original RemoteDoors mod and Code Lock are still required. RemoteDoorsFix does not contain or repack their assets.
+
+## License
+
+RemoteDoorsFix is licensed under the MIT License. See [LICENSE](LICENSE).
+
+This license applies only to the original RemoteDoorsFix source code and assets.
+RemoteDoors, Code Lock, DayZ, and any other third-party dependencies remain
+subject to their respective licenses and terms.
