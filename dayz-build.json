@@ -1,0 +1,15 @@
+{
+  "name": "RemoteDoorsFix",
+  "source": "source/RemoteDoorsFix",
+  "pboName": "RemoteDoorsFix",
+  "prefix": "RemoteDoorsFix",
+  "modFolder": "@RemoteDoorsFix",
+  "packOnly": true,
+  "requireConfig": true,
+  "sign": true,
+  "keyName": "RemoteDoorsFix",
+  "zip": false,
+  "releaseFiles": [
+    "mod.cpp"
+  ]
+}

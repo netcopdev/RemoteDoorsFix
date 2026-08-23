@@ -1,0 +1,10 @@
+name = "RemoteDoorsFix";
+picture = "";
+logoSmall = "";
+logo = "";
+logoOver = "";
+tooltip = "RemoteDoorsFix";
+overview = "Compatibility patch for RemoteDoors target/state synchronization.";
+action = "";
+author = "Compatibility patch";
+version = "0.1.0";
