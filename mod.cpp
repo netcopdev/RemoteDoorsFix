@@ -7,4 +7,4 @@ tooltip = "RemoteDoorsFix";
 overview = "Compatibility patch for RemoteDoors target/state synchronization.";
 action = "";
 author = "Compatibility patch";
-version = "0.1.0";
+version = "0.1.4";

@@ -20,7 +20,7 @@ The **Close All** option is safety-only: it closes open doors and never opens cl
 ## Requirements
 
 - Code Lock
-- RemoteDoors
+- RemoteDoors (upstream `CfgPatches` addon identifier: `RemoteDoors`)
 - RemoteDoorsFix loaded after RemoteDoors
 
 RemoteDoorsFix must be loaded by both the client and server. It is a regular client/server mod, not a `serverMod`.
@@ -28,6 +28,8 @@ RemoteDoorsFix must be loaded by both the client and server. It is a regular cli
 ```text
 ...;@CodeLock;@RemoteDoors;@RemoteDoorsFix;...
 ```
+
+The patch declares an explicit engine dependency on `RemoteDoors`, as verified in the deployed upstream 1.30.0 PBO. Keep the command-line load order above as well. Compatibility of the upstream controller script API with the patch must be verified on DayZ before deployment; the addon dependency alone does not establish runtime compatibility.
 
 ## Using door sets
 

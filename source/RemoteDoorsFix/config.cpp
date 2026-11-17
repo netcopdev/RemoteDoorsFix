@@ -6,10 +6,9 @@ class CfgPatches
         weapons[] = {};
         requiredVersion = 0.1;
 
-        // RemoteDoors MUST appear before @RemoteDoorsFix in -mod.
-        // We deliberately avoid hard-coding RemoteDoors' CfgPatches name,
-        // because the original Workshop PBO is distributed only as config.bin.
-        requiredAddons[] = {"DZ_Scripts"};
+        // RemoteDoors 1.30.0 declares CfgPatches.RemoteDoors.
+        // Resolve its World scripts before extending the upstream controller.
+        requiredAddons[] = {"DZ_Scripts", "RemoteDoors"};
     };
 };
 
